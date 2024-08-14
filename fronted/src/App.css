@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.pagination{
+  width: 100%;
+}
+.pagination nav{
+  display: flex;
+  justify-content: space-between
+}
+.pagination nav div a{
+  text-decoration: none;
+  color: black;
+}
+.table{
+  background-color: rgb(180, 180, 118);
+  border-radius: 1rem;
+}
+
+.form-select{
+  background-color: rgb(180, 180, 118);
+  border-radius: 1rem;
+  
+}
+.search{
+  padding-bottom: 1rem;
+}
+.search input{
+  background-color: rgb(180, 180, 118);
+  border-radius: 0.5rem;
+ 
+}
+
+.table th,
+.table td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: black;
+  color: black;
+  font-weight: bold;
+}
+button:hover{
+  font-weight: 500;
+}
